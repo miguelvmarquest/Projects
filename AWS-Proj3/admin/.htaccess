@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Acesso Autenticado"
+AuthUserFile /home/asw47139/public_html/admin/.htpasswd
+Require valid-user
