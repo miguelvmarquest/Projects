@@ -1,0 +1,158 @@
+body {
+   background-color: #C8C8C8;
+   font-family: Verdana;
+}
+
+nav{
+    background-color: inherit;
+}
+
+.titulo {
+    background-image: url('../img/rock.png');
+    background-size:100% ;    
+}
+
+.titulo h1 {
+    color:white;   
+}
+.topscore {
+    background-color: black;
+}
+
+.topscore p{
+    background-color:aliceblue;
+    color:black;
+    font-family: sans-serif;
+}
+.topscore h2 {
+    background-color:aliceblue;
+    color: black;
+}
+
+.siteproj {
+    background-image:url('../img/rock.png');
+    background-size:100% 100%;
+}
+.siteproj .start{
+    color:aliceblue;
+}
+
+.siteproj  .link a{
+    color:white;
+
+}
+.siteproj .link #bot{
+	-moz-box-shadow:inset 0px 1px 0px 0px white;
+	-webkit-box-shadow:inset 0px 1px 0px 0px white;
+	background-color:black;
+	color:white;
+	font-family:arial;
+	text-shadow:0px 1px 0px grey;
+}
+
+.settings {
+    background-color: red;
+}
+.barra {
+    color:white;
+}
+
+#topscore h3 {
+    color:white;
+    background-color:black;
+}
+
+#topscore {
+    background-color: #B2B2B2;
+    border-color: black;
+}
+#tabtopscore {
+    color: black;
+}
+
+#time h3 {
+    color:white;
+    background-color:black;
+}
+
+#time {
+    background-color: #B2B2B2;
+    border-color: black;
+}
+#time h4 {
+    color:white;
+    background-color:black;
+}    
+#config {
+    background-color: #B2B2B2;
+    border-color: black;
+}
+
+#config h3{
+    color:white;
+    background-color:black;
+}
+    
+#tabconfig {
+    color: black;
+}
+select {
+    border: 1px solid #111;
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+#jogar {
+    border: 1px solid #111;
+    border: 1px solid white;
+}
+.conteudo{
+     background-color: #B2B2B2;
+     border: solid 1px #787878;
+     box-shadow:0px 3px 5px 5px #484848;
+}
+
+a.contacto{
+    color: blue;
+}
+a.contacto:hover{
+    color:#A00000
+}
+
+
+footer {
+    border: 2px solid black ;
+    background-color: #C8C8C8  ;
+    color:black ;    
+}
+
+.tabela td, .tabela th {
+    border: 1px solid #333333;
+}
+
+.tabela th {
+    background-color: #c8c8c8;
+    
+}
+
+#cssmenu {
+  background: #000000;
+}
+
+#cssmenu ul {
+  border-bottom: 1px solid #A79787;
+
+}
+#cssmenu li a {
+  color: #A79787;
+}
+#cssmenu li:hover,
+#cssmenu .active {
+  border-bottom: 2px solid #A00000;
+}
+#cssmenu li:hover a {
+  color: #fff;
+}
+#cssmenu .active a {
+  color: #fff;
+}

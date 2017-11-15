@@ -1,0 +1,48 @@
+
+#picbox {
+	margin: 0px auto;
+	width: 550px;
+	margin-bottom: 5%;
+	margin-left: 20%
+}
+#boxcard {
+	margin: 10px 0 0;
+	font-size: 150px;
+	display: block;
+    margin-left: auto;
+}
+#boxcard div{
+	float: left;
+	width: 100px;
+	height: 150px;
+	margin: 5px;
+	cursor: pointer;
+	box-shadow: 0 1px 5px rgba(0,0,0,.5);
+	background: url('../img/capa.png');
+	background-size: 100px 150px;
+}
+#boxcard div img {
+	display: none;
+	border-radius: 5px;
+	width: 100px;
+	height: 150px;
+
+}
+#boxbuttons {
+	text-align: center;
+	margin: 20px;
+	display: block;
+}
+#boxbuttons .button {
+	color: white;
+	font-size: 150%;
+	font-family: Verdana;
+	background: #A00000 ;
+	padding: 5px 5px;
+	margin: 5px;
+	border-radius: 5px;
+}
+#boxbuttons .button:hover {
+	cursor: pointer;
+	background: grey;
+}

@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formulário</title>
+        <link type="text/css" rel=stylesheet href="css/position.css">
+        <link type="text/css" rel=stylesheet href="css/colors.css">
+        <link rel="shortcut icon" href="img/icone.png">
+        <script type='text/javascript' src='js/form.js'></script>
+    </head>
+    <body>
+        <header class='titulo'>
+            <img class="logo" src="img/logo.png" alt="Rock Memory">
+        </header>
+        <div class='conteudo'>
+            <form name="dados">
+                <label>Nome: <input type="text" name="nome" id='nome' placeholder = "Zé Manél">
+                </label><br><br>
+                <label>Email: <input type="email" name="email" id='email' placeholder= "zequinha@exemplo.net">
+                </label><br><br>
+                <label>Data de Nascimento: <input type="text" name="data" id='data' placeholder ="dd/mm/aaa">
+                </label><br><br>
+                <label>Banda Favorita: <input type="text" name="banda" id='banda' placeholder = "Jorge Martinez">
+                </label><br><br>
+                <a href='jogo.html'>
+                <button type="button" id='bot' onclick="formulario()">Submeter</button>
+                </a>
+            </form>
+        </div>
+        
+        <footer>Página desenvolvida por Miguel Marques, Sérgio Pinto e Tiago Carvalho</footer>
+    </body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<title>Game</title>
+		<link rel="shortcut icon" href="img/icone.png">
+		 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+		 <script src="js/getScores.js"></script>
+		<link type="text/css" rel=stylesheet href="css/position.css">
+		<link type="text/css" rel=stylesheet href="css/colors.css">
+		<link type="text/css" rel=stylesheet href="js/cssNovo/style.css">
+	</head>
+	<body>
+		<header class='titulo'>
+			<img class="logo" src="img/logo.png" alt="Rock Memory">
+		</header>
+		<div id='cssmenu'>
+			<ul>
+   				<li class='active'><a href='jogo.html'><span>Jogo</span></a></li>
+  				<li><a href='topscores.html'><span>Pontuações máximas</span></a></li>
+   				<li><a href='achivements.html'><span>Conquistas</span></a></li>
+   				<li><a href='instrucoes.html'><span>Instruções</span></a></li>
+   				<li class='last'><a href='about.html'><span>Créditos</span></a></li>
+			</ul>
+		</div>
+		<nav class='barra'>
+			<div id='topscore'>
+				<h3>Top Score</h3>
+				<div id='tabtopscore'>
+					<ol>
+						<table>
+                            <tr id='Nivel4'></tr>
+                            <tr id='Nivel3'></tr>
+                            <tr id='Nivel2'></tr>
+                            <tr id='Nivel1'></tr>
+                        </table>
+					</ol>
+				</div>
+			</div>
+			<div id='time'>
+				<h3>Time</h3>
+                <p id='tabtime'>
+                    <time id='tempo'>
+                        00:00:00
+                    </time>
+                </p>
+			</div>
+			<div id='config'>
+				<h3>Dificuldade</h3>
+				<div id='tabconfig'>
+				<form>
+					Selecione a dificuldade do jogo:
+					<select>
+ 						<option id="facil" value="facil">Fácil</option>
+  						<option id="media" value="media">Média</option>
+  						<option id="dificil" value="dificil">Difícil</option>
+  						<option id="extremo" value="extremo">Extremo</option>
+					</select>
+				</form>
+					<button id="jogar" onclick="dificuldade()">Jogar!</button><br />
+                    <button  onclick="StopM()">Stop Music</button>
+				</div>
+			</div>
+		</nav>
+		<div id= 'jogo'>
+			<div id="picbox">
+  <span id="boxbuttons">
+    <span class="button">
+      <span id="counter">0</span>
+      Clicks
+    </span>
+    <span class="button">
+      <a onclick="ResetGame();">Recomeçar</a>
+    </span>
+  </span>
+  <div id="boxcard"></div>
+</div>
+    
+
+    
+    <script src="js/jsNovo/index.js"></script>
+	
+		</div>
+		<footer>Página desenvolvida por Miguel Marques, Sérgio Pinto e Tiago Carvalho</footer>
+	</body>
+</html>
